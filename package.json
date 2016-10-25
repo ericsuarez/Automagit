@@ -1,7 +1,7 @@
 {
   "name": "automagit",
   "version": "1.0.8",
-  "description": "Alias to improve performace of repos",
+  "description": "Alias to improve your performace with Github, automatize tasks and help you to focus in the code, not on the tedious tasks",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
