@@ -31,7 +31,7 @@ automatize [OPTIONS]
 ## Youtube Video
 
 
-![video](https://www.youtube.com/watch?v=xr9-FqQ2NzM&feature=youtu.be)
+[![video]](https://www.youtube.com/watch?v=xr9-FqQ2NzM&feature=youtu.be)
 
 ## Examples:
 
