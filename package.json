@@ -1,5 +1,5 @@
 {
-  "name": "automatize-github",
+  "name": "automagit",
   "version": "1.0.0",
   "description": "Alias to improve performace of repos",
   "main": "script.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "automatize": "./bin/script.js"
+    "automagit": "./bin/script.js"
   },
   "author": "Eric Ramos Suárez",
   "email": "eric.ramos.suarez@gmail.com",

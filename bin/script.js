@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require('shelljs/global');
 var argv = require('minimist')(process.argv.slice(2));
 var pck = require('../package.json');
