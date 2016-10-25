@@ -13,9 +13,17 @@
 ```
 ###Examples:
 
-git ci "changes"
+```git ci "changes"```
+![git ci](http://i65.tinypic.com/23ucvns.png)
 
-git cif
-git f 
-git ff 
-git fff 
+
+```git cif```
+
+
+```git f```
+
+
+```git ff```
+
+
+```git fff```
