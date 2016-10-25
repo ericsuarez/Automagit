@@ -14,10 +14,11 @@
 ###Examples:
 
 ```git ci "changes"```
-![git ci](http://i65.tinypic.com/23ucvns.png)
+![git ci](http://oi65.tinypic.com/23ucvns.jpg)
 
 
 ```git cif```
+![git cif](http://oi63.tinypic.com/28b45s6.jpg)
 
 
 ```git f```
