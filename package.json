@@ -1,6 +1,6 @@
 {
   "name": "automagit",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Alias to improve your performace with Github, automatize tasks and help you to focus in the code, not on the tedious tasks",
   "main": "script.js",
   "scripts": {
