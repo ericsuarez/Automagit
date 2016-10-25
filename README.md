@@ -27,28 +27,28 @@ automatize [OPTIONS]
     git ff  --> git add + commit + push + update npm package.                                        
     git fff --> git add + commit + increase version npm in package.json + push + update npm package. 
 ```
-###Examples:
+## Examples:
 
-```git ci "changes"```
+### git ci "changes"
 
 
 ![git ci](http://oi65.tinypic.com/23ucvns.jpg)
 
 
-```git cif```
+### git cif
 
 
 ![git cif](http://oi63.tinypic.com/28b45s6.jpg)
 
 
-```git f```
+### git f
 
 
 ![git cif](http://oi64.tinypic.com/2s0hlc8.jpg)
 
 
 
-```git ff```
+### git ff
 
 
 ### IMPORTANT
@@ -60,7 +60,7 @@ to use this option first update the version in the package.json
 
 ![git cif](http://oi65.tinypic.com/rshtus.jpg)
 
-```git fff```
+### git fff
 
 
 ![git cif](http://oi66.tinypic.com/vq4bgi.jpg)
