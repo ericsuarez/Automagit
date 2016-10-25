@@ -12,8 +12,12 @@ if(argv.v){
     console.log(pck.version);
 }
 
-if(argv.delete){
-    exec("git config  --global --remove-section alias");
+if(argv.delete || argv.d){
+    exec("git config --global --unset alias.ci");
+    exec("git config --global --unset alias.cif");
+    exec("git config --global --unset alias.f");
+    exec("git config --global --unset alias.ff");
+    exec("git config --global --unset alias.fff");
 }
 
 
@@ -21,7 +25,7 @@ if(argv.delete){
 else if(argv.h || argv.help){
     console.log("automatize [OPTIONS]\n"+
         "default install all aliases\n"+
-		"-d delete all aliases automatize -d\n"+
+		"-d --delete  remove all aliases automatize -d\n"+
 		"-h --help show help\n"+
 		"-v show package version -v\n");
 }
