@@ -22,9 +22,10 @@
 
 
 ```git f```
-
+![git cif](http://oi64.tinypic.com/2s0hlc8.jpg)
 
 ```git ff```
-
+![git cif]()
 
 ```git fff```
+![git cif](http://oi63.tinypic.com/28b45s6.jpg)
