@@ -1,6 +1,6 @@
 {
   "name": "automagit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Alias to improve performace of repos",
   "main": "script.js",
   "scripts": {
