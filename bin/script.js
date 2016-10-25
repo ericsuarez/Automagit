@@ -17,6 +17,7 @@ if(argv.delete){
 }
 
 
+
 else if(argv.h || argv.help){
     console.log("automatize [OPTIONS]\n"+
         "default install all aliases\n"+
