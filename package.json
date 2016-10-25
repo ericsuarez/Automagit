@@ -1,0 +1,19 @@
+{
+  "name": "automatize-github",
+  "version": "1.0.0",
+  "description": "Alias to improve performace of repos",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "automatize": "./bin/script.js"
+  },
+  "author": "Eric Ramos Suárez",
+  "email": "eric.ramos.suarez@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "shelljs": "^0.7.4"
+  }
+}
