@@ -4,10 +4,17 @@
 ### This alias will be added:
 
 ```bash
-    git ci  --> git add + commit.                                                                    Example: git ci "changes"
-    git cif --> git add + commit with text no relevants changes.                                     Example: git cif
-    git cif --> git add + commit with text no relevants changes.                                     Example: git cif
-    git f   --> git add + commit + push.                                                             Example git f
-    git ff  --> git add + commit + push + update npm package.                                        Example git ff 
-    git fff --> git add + commit + increase version npm in package.json + push + update npm package. Example git fff
+    git ci  --> git add + commit.                                                                   
+    git cif --> git add + commit with text no relevants changes.                                    
+    git cif --> git add + commit with text no relevants changes.                                   
+    git f   --> git add + commit + push.                                                             
+    git ff  --> git add + commit + push + update npm package.                                        
+    git fff --> git add + commit + increase version npm in package.json + push + update npm package. 
 ```
+        Examples:
+        
+        git ci "changes"
+        git cif
+        git f 
+        git ff 
+        git fff 

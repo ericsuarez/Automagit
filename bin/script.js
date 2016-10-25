@@ -26,12 +26,11 @@ else if(argv.h || argv.help){
 }
 
 else{
-    var x = "no relevants changes";
     exec("git config --global alias.ci '!git add -A && git commit -m'");
-    exec("git config --global alias.cif '!git add -A && git commit -m " + x + "'");
-    exec("git config --global alias.cif '!git add -A && git commit -m " + x + " && git push'");
-    exec("git config --global alias.cif '!git add -A && git commit -m " + x + " && git push && npm publish'");
-    exec("git config --global alias.cif '!git add -A && git commit -m " + x + " && npm version patch && git push && npm publish'");
+    exec("git config --global alias.cif '!git add -A && git commit -m \"no relevants changes\" && git push'");
+    exec("git config --global alias.f '!git add -A && git commit -m \"no relevants changes\" && git push'");
+    exec("git config --global alias.ff '!git add -A && git commit -m \"no relevants changes\" && git push && npm publish'");
+    exec("git config --global alias.fff '!git add -A && git commit -m \"no relevants changes\" && npm version patch && git push && npm publish'");
 }
 
 
