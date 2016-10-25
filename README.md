@@ -25,7 +25,12 @@
 ![git cif](http://oi64.tinypic.com/2s0hlc8.jpg)
 
 ```git ff```
-![git cif]()
+### IMPORTANT
+
+to use this option first update the version in the package.json
+**The option ```git fff``` update the version automatic
+
+![git cif](http://oi65.tinypic.com/rshtus.jpg)
 
 ```git fff```
-![git cif](http://oi63.tinypic.com/28b45s6.jpg)
+![git cif]()
