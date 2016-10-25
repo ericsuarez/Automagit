@@ -27,6 +27,12 @@ automatize [OPTIONS]
     git ff  --> git add + commit + push + update npm package.                                        
     git fff --> git add + commit + increase version npm in package.json + push + update npm package. 
 ```
+
+## Youtube Video
+
+
+![video](https://www.youtube.com/watch?v=xr9-FqQ2NzM&feature=youtu.be)
+
 ## Examples:
 
 ### git ci "changes"
