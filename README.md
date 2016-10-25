@@ -11,10 +11,11 @@
     git ff  --> git add + commit + push + update npm package.                                        
     git fff --> git add + commit + increase version npm in package.json + push + update npm package. 
 ```
-        Examples:
-        
-        git ci "changes"
-        git cif
-        git f 
-        git ff 
-        git fff 
+###Examples:
+
+git ci "changes"
+
+git cif
+git f 
+git ff 
+git fff 
