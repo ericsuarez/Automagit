@@ -37,7 +37,7 @@ else if(argv.h || argv.help){
 
 else{
     exec("git config --global alias.ci '!git add -A && git commit -m'");
-    exec("git config --global alias.lola '!f() { git add -A && git commit -m \"$@\" && git push; }; f'");
+    exec("git config --global alias.cii '!f() { git add -A && git commit -m \"$@\" && git push; }; f'");
     exec("git config --global alias.cif '!git add -A && git commit -m \"no relevants changes\" && git push'");
     exec("git config --global alias.f '!git add -A && git commit -m \"no relevants changes\" && git push'");
     exec("git config --global alias.ff '!git add -A && git commit -m \"no relevants changes\" && git push && npm publish'");
