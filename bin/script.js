@@ -38,7 +38,8 @@ else if(argv.h || argv.help){
 		"git cif\t\t git add + commit with text no relevants changes + push\n"+
 		"git f\t\t git add + commit + increase version npm in package.json + push + update npm package\n"+
 		"git fi \"COMMIT\"  git add + commit + increase version npm in package.json + push + update npm package.\n"+
-		"git fi\t\t increase version npm in package.json + push + update npm package\n");
+		"git fin\t\t git push + update npm package.\n"+
+		"git final\t increase version npm in package.json + push + update npm package\n");
 }
 
 else{
@@ -47,7 +48,9 @@ else{
     exec("git config --global alias.cif '!git add -A && git commit -m \"no relevants changes\" && git push'");
     exec("git config --global alias.f '!git add -A && git commit -m \"no relevants changes\" && npm version patch && git push && npm publish'");
     exec("git config --global alias.fi '!f() { git add -A && git commit -m \"$@\" && npm version patch && git push && npm publish; }; f'");
-    exec("git config --global alias.final '!f() {npm version patch && git push && npm publish; }; f'");
+    exec("git config --global alias.fin '!git push && npm publish'");
+    exec("git config --global alias.final 'npm version patch && git push && npm publish'");
+    
     
 }
 
