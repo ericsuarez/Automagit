@@ -1,6 +1,6 @@
 {
   "name": "automagit",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Improve performace with Github, focus on the code not on the tedious tasks",
   "main": "script.js",
   "scripts": {
