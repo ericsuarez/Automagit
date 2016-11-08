@@ -20,12 +20,12 @@ automatize [OPTIONS]
 ## This alias will add:
 
 ```bash
-    git ci  --> git add + commit.                                                                   
-    git cif --> git add + commit with text no relevants changes.                                    
-    git cif --> git add + commit with text no relevants changes.                                   
-    git f   --> git add + commit + push.                                                             
-    git ff  --> git add + commit + push + update npm package.                                        
-    git fff --> git add + commit + increase version npm in package.json + push + update npm package. 
+    git ci  --> git add + commit --> git ci "COMMIT"
+    git cii  --> git add + commit + push --> git cii "COMMIT"             ** IMPORTANT commit customed**
+    git cif --> git add + commit with text no relevants changes + push --> git cif                                    
+    git f --> git add + commit + increase version npm in package.json + push + update npm package --> git f
+    git fi --> git add + commit + increase version npm in package.json + push + update npm package. --> git fi "COMMIT"   ** IMPORTANT commit customed**
+    git fi --> increase version npm in package.json + push + update npm package --> git fi 
 ```
 
 ## Youtube Video

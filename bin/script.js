@@ -32,16 +32,23 @@ else if(argv.h || argv.help){
 		"-d --delete  remove all aliases automagit -d\n"+
 		"-h --help show help\n"+
 		"-v show package version -v\n"+
-		"-c put your own commit -c\n");
+		"-c put your own commit -c\n\nEXAMPLES\n"+
+		"git ci \"COMMIT\"\t git add + commit\n"+
+		"git cii \"COMMIT\" git add + commit + push\n"+
+		"git cif\t\t git add + commit with text no relevants changes + push\n"+
+		"git f\t\t git add + commit + increase version npm in package.json + push + update npm package\n"+
+		"git fi \"COMMIT\"  git add + commit + increase version npm in package.json + push + update npm package.\n"+
+		"git fi\t\t increase version npm in package.json + push + update npm package\n");
 }
 
 else{
     exec("git config --global alias.ci '!git add -A && git commit -m'");
     exec("git config --global alias.cii '!f() { git add -A && git commit -m \"$@\" && git push; }; f'");
     exec("git config --global alias.cif '!git add -A && git commit -m \"no relevants changes\" && git push'");
-    exec("git config --global alias.f '!git add -A && git commit -m \"no relevants changes\" && git push'");
-    exec("git config --global alias.ff '!git add -A && git commit -m \"no relevants changes\" && git push && npm publish'");
-    exec("git config --global alias.fff '!git add -A && git commit -m \"no relevants changes\" && npm version patch && git push && npm publish'");
+    exec("git config --global alias.f '!git add -A && git commit -m \"no relevants changes\" && npm version patch && git push && npm publish'");
+    exec("git config --global alias.fi '!f() { git add -A && git commit -m \"$@\" && npm version patch && git push && npm publish; }; f'");
+    exec("git config --global alias.final '!f() {npm version patch && git push && npm publish; }; f'");
+    
 }
 
 
