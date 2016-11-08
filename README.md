@@ -5,11 +5,14 @@
 
 ## Install
 
-```npm install -g automagit```
+```$ npm install -g automagit```
+
+
+
 
 ## RUN automagit in the shell
 
-```automagit```
+```$ automagit```
 
 
 ## This alias will add:
