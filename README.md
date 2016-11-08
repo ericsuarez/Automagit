@@ -7,10 +7,18 @@
 
 ```npm install -g automagit```
 
+## RUN automagit in the shell
+
+```automagit```
+
+
+NOW YOU CAN EXECUTE ALL THE COMMANDS BELOW
+
+
 ## Options
 
 ```
-automatize [OPTIONS]
+automagit [OPTIONS]
         default install all aliases
 		-d --delete  remove all aliases automatize -d
 		-h --help show help
