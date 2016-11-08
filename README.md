@@ -15,16 +15,6 @@
 NOW YOU CAN EXECUTE ALL THE COMMANDS BELOW
 
 
-## Options
-
-```
-automagit [OPTIONS]
-        default install all aliases
-		-d --delete  remove all aliases automatize -d
-		-h --help show help
-		-v show package version -v
-```
-
 ## This alias will add:
 
 ```bash
@@ -36,6 +26,19 @@ automagit [OPTIONS]
 	git fin            git push + update npm package
 	git final          increase version npm in package.json + push + update npm package
 ```
+
+
+## Options
+
+```
+automagit [OPTIONS]
+        default install all aliases
+		-d --delete  remove all aliases automatize -d
+		-h --help show help
+		-v show package version -v
+```
+
+
 
 ## Youtube Video
 
