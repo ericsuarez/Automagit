@@ -15,6 +15,8 @@
 NOW YOU CAN EXECUTE ALL THE COMMANDS BELOW
 
 
+
+
 ## This alias will add:
 
 ```bash
@@ -26,6 +28,7 @@ NOW YOU CAN EXECUTE ALL THE COMMANDS BELOW
 	git fin            git push + update npm package
 	git final          increase version npm in package.json + push + update npm package
 ```
+
 
 
 ## Options
