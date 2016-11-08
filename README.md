@@ -12,9 +12,9 @@
 ```automagit```
 
 
+
+
 NOW YOU CAN EXECUTE ALL THE COMMANDS BELOW
-
-
 
 
 ## This alias will add:
